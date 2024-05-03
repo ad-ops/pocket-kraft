@@ -1,0 +1,9 @@
+spec: v0.6
+
+name: pocket-kraft
+
+runtime: base-compat:latest
+
+rootfs: ./Dockerfile
+
+cmd: ["/app/pocketbase", "serve", "--http=0.0.0.0:8090"]
